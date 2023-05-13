@@ -1,9 +1,9 @@
 export const bio = [
-  "Hello there &#128075;",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from coding, I love to read, listen to music, and travel.",
-  "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
-  "Thanks for taking the time to learn a little about me!",
+  "Hey!",
+  "I'm Ching Vang, a Junior Software Engineer at Red Ventures. I am a recent graduate from Road to Hire Coding program. There we focused on building full stack applications.",
+  "Apart from coding, I have to many hobbies to count, but just to name a few I love to hike and play video games.",
+  "As a Result's driver and a continious learner, I push my teammates to achieve their best work while learning from every experiences.",
+  "Thanks you for visiting my portfolio!",
 ];
 
 export const skills = [
@@ -53,7 +53,7 @@ export const skills = [
 
 export const projects = {
   disclaimer:
-    "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
+    "* Most of these projects were completed within the Road to Hire program. While others were completed during my time at University of North Carolina at",
   webProjects: [
     {
       projectName: "Programming Diaries",
@@ -225,18 +225,18 @@ export const footer = [
   {
     label: "Dev Profiles",
     data: [
-      {
-        text: "Stackoverflow",
-        link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-      },
+      //{
+        // text: "Stackoverflow",
+        // link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+      //},
       {
         text: "GitHub",
-        link: "https://github.com/vinaysomawat",
+        link: "https://github.com/ChingV",
       },
-      {
-        text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
-      },
+      //{
+        // text: "LeetCode",
+        // link: "https://leetcode.com/somawatvinay/",
+      //},
     ],
   },
   {
@@ -263,20 +263,20 @@ export const footer = [
         text: "Linkedin",
         link: "https://www.linkedin.com/in/vinaysomawat/",
       },
-      {
-        text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
-      },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
+      //{
+        // text: "Twitter",
+        // link: "https://twitter.com/thesigmakid",
+      //},
+      //{
+        // text: "Buy me a coffee",
+        // link: "https://www.buymeacoffee.com/r194dME8y",
+      //},
     ],
   },
   {
     label: "copyright-text",
     data: [
-      "Made with &hearts; by Vinay Somawat.",
+      // "Made with &hearts; by Vinay Somawat.",
       "&copy; No Copyrights. Feel free to use this template.",
     ],
   },

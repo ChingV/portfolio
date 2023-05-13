@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", async function () {
         const { gold, silver, bronze } = user.badge_counts;
 
         el.innerHTML = `
-        <div style="font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; border-radius: 6px; line-height: 1.5; padding: 16px; font-size: 14px; color: #24292e; background-color: #f9bf3f;">
+        <div style="font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; border-radius: 6px; line-height: 1.5; padding: 16px; font-size: 14px; color: #24292e; background-color: #5a62ff;">
                 <div style="display: flex; align-items: center;">
                     <img style="width: 48px; height: 48px; border-radius: 50%" src="${profile_image}" alt="Profile image"></img>
                     <div style="display: flex; flex-direction: column; margin-left: 12px">
@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                                 ${display_name}
                             </a>
                         </span>
-                        <span style="font-weight: 400; color: #586069; font-size: 12px">
+                        <span style="font-weight: 400; color: white; font-size: 12px">
                             @${link.replace("https://", '').replace(`/users/${user_id}`,'')}
                         </span>
                     </div>
@@ -30,7 +30,7 @@ window.addEventListener("DOMContentLoaded", async function () {
 
                 <div style="margin-top: 12px; display: flex; justify-content: space-evenly; align-items: center; ">
                     <div style="margin-top: -4px">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
+                        <span style="font-size: 10px; font-weight: 500; color: white;">
                             REPUTATIONS
                         </span>
                         <div style="font-weight: 400; color: #211F1F; font-size: 12px; margin-top: 2px">
@@ -40,7 +40,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                         </div>
                     </div>
                     <div style="margin-top: -4px">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
+                        <span style="font-size: 10px; font-weight: 500; color: white;">
                             BADGES
                         </span>
                         <div style="font-weight: 400; color: #211F1F; font-size: 12px; margin-top: 2px">
@@ -61,7 +61,7 @@ window.addEventListener("DOMContentLoaded", async function () {
         const { name, avatar_url, public_repos, followers, html_url, following } = response;
 
         el.innerHTML = `
-            <div style="font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; border-radius: 6px; line-height: 1.5; padding: 16px; font-size: 14px; color: #24292e; background-color: #f9bf3f;">
+            <div style="font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; border-radius: 6px; line-height: 1.5; padding: 16px; font-size: 14px; color: #24292e; background-color: #5a62ff;">
                 <div style="display: flex; align-items: center; margin-top: -4px">
                     <img style="width: 48px; height: 48px; border-radius: 50%" src="${avatar_url}" alt="Profile image"></img>
                     <div style="display: flex; flex-direction: column; margin-left: 12px">
@@ -70,7 +70,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                                 ${name}
                             </a>
                         </span>
-                        <span style="font-weight: 400; color: #586069; font-size: 12px">
+                        <span style="font-weight: 400; color: white; font-size: 12px">
                             @${html_url.replace('https://', '')}
                         </span>
                     </div>
@@ -78,7 +78,7 @@ window.addEventListener("DOMContentLoaded", async function () {
 
                 <div style="margin-top: 12px; display: flex; justify-content: space-evenly; align-items: center; ">
                     <div style="display: flex; flex-direction: column;">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
+                        <span style="font-size: 10px; font-weight: 500; color: white;">
                             REPOSITORIES
                         </span>
                         <span style="font-weight: 600; color: #211F1F; font-size: 32px; line-height: 1">
@@ -86,7 +86,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                         </span>
                     </div>
                     <div style="display: flex; flex-direction: column;">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
+                        <span style="font-size: 10px; font-weight: 500; color: white;">
                             FOLLOWERS
                         </span>
                         <span style="font-weight: 600; color: #211F1F; font-size: 32px; line-height: 1">
@@ -94,7 +94,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                         </span>
                     </div>
                     <div style="display: flex; flex-direction: column;">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
+                        <span style="font-size: 10px; font-weight: 500; color: white;">
                             FOLLOWING
                         </span>
                         <span style="font-weight: 600; color: #211F1F; font-size: 32px; line-height: 1">

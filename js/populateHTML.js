@@ -83,7 +83,7 @@ function populateSkills(items, id) {
     const divAnimateBox = getElement("div", "col-md-6 animate-box");
     divAnimateBox.append(divProgressWrap);
 
-    skillsTag.append(divAnimateBox);
+    // skillsTag.append(divAnimateBox);
   });
 }
 
@@ -161,11 +161,11 @@ function populateProjects(items, id) {
       divSpan.append(span);
     }
 
-    projectdesign.append(li.cloneNode(true));
+    // projectdesign.append(li.cloneNode(true));
 
-    if (i != items.length - 1) {
-      projectdesign.append(hr.cloneNode(true));
-    }
+    // if (i != items.length - 1) {
+    //   projectdesign.append(hr.cloneNode(true));
+    // }
   }
 }
 
@@ -309,7 +309,7 @@ function populateExp_Edu(items, id) {
     article.className = "timeline-entry animate-box";
     article.append(divTimelineEntryInner);
 
-    mainContainer.append(article);
+    // mainContainer.append(article);
   }
 
   let divTimelineIcon = document.createElement("div");
@@ -323,7 +323,7 @@ function populateExp_Edu(items, id) {
   article.className = "timeline-entry begin animate-box";
   article.append(divTimelineEntryInner);
 
-  mainContainer.append(article);
+  // mainContainer.append(article);
 }
 
 /**
